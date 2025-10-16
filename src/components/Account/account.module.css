@@ -1,0 +1,28 @@
+.accountWrap {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neutral-surface);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.bank {
+  font-weight: 500;
+  color: var(--neutral-text);
+}
+
+.balance {
+  font-size: 0.875rem;
+  color: rgba(245, 245, 245, 0.7);
+}

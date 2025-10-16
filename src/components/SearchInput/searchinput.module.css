@@ -1,0 +1,33 @@
+.container {
+  background-color: var(--neutral-surface);
+  color: var(--neutral-text);
+  border: 0.5px solid transparent;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: text;
+  padding: 7px 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  transition: border-color 0.2s ease-in;
+}
+
+.container:hover {
+  border-color: #d6ff62;
+}
+
+.container:focus-within {
+  border-color: #d6ff62;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--neutral-text);
+  font-size: 16px;
+  line-height: 120%;
+}

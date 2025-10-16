@@ -1,0 +1,8 @@
+.dailyBudget {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary-highlight);
+    line-height: 120%; 
+    text-align: center;
+    margin: 0;
+}

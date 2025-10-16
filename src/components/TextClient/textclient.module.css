@@ -1,0 +1,16 @@
+.container{
+    text-align: justify;
+}
+
+.h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--neutral-text);
+}
+
+.p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: var(--neutral-text);
+}
